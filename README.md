@@ -28,24 +28,23 @@ We are going to Cover these topics in learning path of java in this sequence
    a. What is Array
    b. How to create read Array
    c. How to find element of Arrays
-   d. Opertion on Arrays Concepts
+   d. Operation on Arrays Concepts
 
 6. Block Concept in Java
    a. Static Block
    b. Instance Block
-   c. Priority of Block(static and instance) in Java Workflow
-   d. How to Use of different variable in Differenct Block and what is the scope of Block.
+   c. Priority of Block (static and instance) in Java Workflow
+   d. How to Use of different variable in Different Block and what is the scope of Block.
  
-
 7. Packages
   a. java.lang
   b. java.util
   c. java.collection   
 
 8. Exception Handling
-   a. What is exception
+   a. What is exception?
    b. Difference between error and exception
-   c. Exception ,Runtime Exception and its types
+   c. Exception, Runtime Exception and its types
    d. Throws, Throw, Custom Exception
    e. Handle Exception on next level.
 
@@ -66,10 +65,10 @@ We are going to Cover these topics in learning path of java in this sequence
 12. JUNIT-Concept
   a. How unit test is done
 
-We will create a Different Repository where we will write notes . This repository will only having basic code.
+We will create a Different Repository where we will write notes. This repository will only having basic code.
 
 
-A development container is a running container with a well-defined tool/runtime stack and its prerequisites. You can try out development containers with GitHub Codespaces or Visual Studio Code Or STS or any Other Tools.
+A development container is a running container with a well-defined tool/runtime stack and its prerequisites. You can try out development containers with GitHub Codespaces or Visual Studio Code Or STS or any Other  Development Tools.
 
 This is a sample project that lets you try out either option in a few easy steps. We have a variety of other vscode-remote-try-* sample projects, too.
 
