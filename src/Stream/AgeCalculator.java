@@ -16,7 +16,7 @@ public static void main(String[] args) {
             .stream()
             .collect(Collectors.averagingInt(p -> p.age));
 
-        System.out.println(averageAge);     // 19.0
+        System.out.println(averageAge);     // 19.0\\\\
 }
 }
 class Person {

@@ -27,7 +27,9 @@ public static void main(String[] args) {
  
 	
 	
-	list.stream().sorted(Comparator.comparing(Person::getEmpname)).forEach(a->System.out.println(a));
+	list.stream().sorted(Comparator.comparing(Person::getEmpname)).
+	
+	forEach(a->System.out.println(a));
 }
 }
   class Person{
