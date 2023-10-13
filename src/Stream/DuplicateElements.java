@@ -11,8 +11,8 @@ public static void main(String[] args) {
 	 List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15,10,8);
 	 myList.stream().distinct().sorted().forEach(System.out::println);
 	 
-	 Set<Integer> list = new LinkedHashSet<Integer>();
+	 Set<Integer> set = new LinkedHashSet<Integer>();
 	 System.out.println("****************");
-	 myList.stream().filter(p->list.containsAll(list)).forEach(System.out::print);
+	 myList.stream().filter(p->!set.add(p)).forEach(System.out::print);
 }
 }

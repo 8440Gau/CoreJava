@@ -24,9 +24,6 @@ public static void main(String[] args) {
 	
 	ArrayList<Person> list1= new ArrayList<Person >();
 	
- 
-	
-	
 	list.stream().sorted(Comparator.comparing(Person::getEmpname)).
 	
 	forEach(a->System.out.println(a));
