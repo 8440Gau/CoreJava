@@ -14,8 +14,8 @@ public static int[] positionshift(int arr[] , int position) {
 	
 	int[] result = new int[arr.length];
 	for(int i =0;i<result.length;i++) {
-		if(arr.length-position+i<arr.length) 
-			result[i]= arr[arr.length-position+i];
+		if(arr.length+i-position<arr.length) 
+			result[i]= arr[arr.length+i-position];
 		else 
 			result[i]= arr[i-position];
 	}
