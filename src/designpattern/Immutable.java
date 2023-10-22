@@ -18,6 +18,9 @@ public class Immutable {
 		Employee employee = new Employee("abc123", "Gaurav");
 		String s= employee.getEmpDetails();
 		System.out.println(s);
+		Employee employee2 = new Employee("ab23", "Puja");
+		String s2= employee2.getEmpDetails();
+		System.out.println(s2);
 	}
 
 }
